@@ -22,6 +22,9 @@ body{
     left: 50%;
     margin-left: -465px;
 }
+h1,h2,h3{
+  color: goldenrod;
+}
 header{
     height: auto;
     background: #464646; 
@@ -70,16 +73,31 @@ ul.menu li:hover, ul li a:hover{
     background-color: rebeccapurple;
     color: goldenrod;
 }
-#middle-1 {
-    height: 100px;
+.middle-1 {
     border: 1px solid white;
+    height: auto;
+    margin-bottom: 20PX;
+    overflow: auto;
+}
+
+.slideshow-left {
+  float: left;
+  margin: 5px;
+  width: 71%;
+}
+/* First Right Article */
+.article-right-1{
+  margin: 5px;
+  float: right;
+  width: 27%;
 }
 
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
     position: relative;
-    margin: auto;
+    
+    
   }
   
   /* Caption text */
@@ -124,7 +142,68 @@ ul.menu li:hover, ul li a:hover{
     animation-name: fade;
     animation-duration: 1.5s;
   }
+
+  .flex-container {
+    display: flex;
+    background-color: #f1f1f1;
+  }
   
+  .flex-container > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 300px;
+    margin: 7px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 16px;
+  }
+
+  .middle-2 {
+    border: 1px solid white;
+    height: 350px;
+    margin-bottom: 20PX;
+    overflow: auto;
+}
+
+.middle-3 {
+  border: 1px solid white;
+  height: 350px;
+  margin-bottom: 20PX;
+  overflow: auto;
+}
+ 
+.middle-4 {
+  border: 1px solid white;
+  height: 350px;
+  margin-bottom: 20PX;
+  overflow: auto;
+} 
+
+.middle-5 {
+  border: 1px solid white;
+  height: 350px;
+  margin-bottom: 20PX;
+  overflow: auto;
+  display: inline-block;
+}
+.segment-videos, .min-videos, .segment-teaching, .segment-testimony, .segment-videos-more {
+  float: left;
+  margin: 5px;
+  width: 71%;
+}
+.article-right-2, .article-right-3, .article-right-4, .article-right-5{
+  margin: 5px;
+  float: right;
+  width: 27%;
+}
+
+footer {
+  border: 1px solid white;
+  height: 250px;
+  margin-bottom: 20PX;
+  overflow: auto;
+}
+
   @-webkit-keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
