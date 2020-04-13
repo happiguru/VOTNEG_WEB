@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
                <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-       
-        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="js/bootstrap.js"></script>
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -21,471 +21,383 @@
                     <img src="bird.jpg" alt="VOTNEG" style="width:40px;">
                 </a>
                 <ul class="nav nav-tabs menu" rel="sam1">  
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>  
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>  
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>  
                     <li class="nav-item"><a class="nav-link" href="multimedia.html">Multimedia</a></li>  
                     <li class="nav-item"><a class="nav-link" href="ministry.html">Ministry</a></li>  
                     <li class="nav-item"><a class="nav-link" href="school-programme.html">Schools</a></li>  
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>  
-                    <li class="nav-item"><a class="nav-link" href="online-store.html">Online Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="online-store.html">Online Store</a></li>  
                     <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
                     </ul>  
             </nav>
         </header>
-
-        <!-- Main page with Slide Shows  -->
-        
-        <div class="container-fluid middle-1">
+<!-- / Events and News start here -->
+        <div class="container-fluid">
             <div class="row">
-              <div class="col-sm-6 col-md-8 col-lg-9 slideshow-left">
-                
-               <div class="slideshow-container">
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 3</div>
-                    <img src="images/img_nature_wide.jpg" style="width:100%">
-                    <div class="text">Caption Text</div>
-                  </div>
-                  
-                  <div class="mySlides fade">
-                    <div class="numbertext">2 / 3</div>
-                    <img src="images/img_snow_wide.jpg" style="width:100%">
-                    <div class="text">Caption Two</div>
-                  </div>
-                  
-                  <div class="mySlides fade">
-                    <div class="numbertext">3 / 3</div>
-                    <img src="images/img_mountains_wide.jpg" style="width:100%">
-                    <div class="text">Caption Three</div>
-                  </div>
-            </div> <br>
-
-            <div style="text-align:center">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-              </div>
-            </div>
-
-            <!-- Right sidebar with articles -->
-            <div class="cols-sm-6 col-md-4 col-lg-3 article-right-1">
-                <br><h3 class="min-1">Upcoming Events</h3><hr>
-                 <!-- Fluid width widget -->        
-                 <div class="panel panel-danger">
-                    <div class="panel-body">
-                        <ul class="media-list">
-                            <li class="media">
-                                <div class="media-left">
-                                    <div class="panel panel-danger text-center date">
-                                        <div class="panel-heading month">
-                                            <span class="panel-title strong">
-                                                Mar
-                                            </span>
-                                        </div>
-                                        <div class="panel-body day text-danger">
-                                            23
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="media-body">
+                <div class="col-sm-6 col-md-8 col-lg-9">
+                    <div class="container">  
+                        <br>
+                        <h3>EVENTS & NEWS</h3>
+                        <hr>
+                        <div class="row">
+                            
+                          <div class="col-lg-push-4 col-md-4 col-md-push-4">
+                            
+                            <div class="searchForm type2">
+                              <form action="" class="searchForm"><!-- Add The Appropriate Action for Your Site's Search Form/Page -->
+                                <label class="sr-only" for="searchNewsEvents">Search News and Events</label>
+                                 <input id="searchNewsEvents" name="q" placeholder="What are you looking for?" type="search"> <input type="submit" value="Search">
+                              </form>
+                            </div>
+                          </div>
+                          <div class="clearfix visible-sm visible-xs">
+                            &nbsp;
+                          </div>
+                          <div class="col-lg-push-4 col-md-4 col-md-push-4">
+                            <div class="dropdownCategories">
+                            <label class="sr-only" for="dropdownNewsEvents">Category dropdown for News and Events</label>
+                            <select>
+                              <option value="">
+                                Select Category
+                              </option>
+                              <option value=""><!-- Each option value should correspond to the appropriate filter on your site's News or Events page -->
+                                Marketing
+                              </option>
+                              <option value=""><!-- Each option value should correspond to the appropriate filter on your site's News or Events page -->
+                                Design
+                              </option>
+                              <option value=""><!-- Each option value should correspond to the appropriate filter on your site's News or Events page -->
+                                Programming
+                              </option>
+                              <option value=""><!-- Each option value should correspond to the appropriate filter on your site's News or Events page -->
+                                Support
+                              </option>
+                              <option value=""><!-- Each option value should correspond to the appropriate filter on your site's News or Events page -->
+                                Training
+                              </option>
+                            </select>
+                            </div>
+                          </div>  
+                          <div class="clearfix visible-sm visible-xs">
+                            &nbsp;
+                          </div>
+                          <div class="col-lg-4 col-lg-pull-8 col-md-4 col-md-pull-8"><br>
+                            <ul class="nav nav-pills" role="tablist">
+                              <li class="active">
+                                <a data-toggle="tab" href="#tab1" role="tab">Events</a>
+                              </li>
+                              <li>
+                                <a data-toggle="tab" href="#tab2" role="tab">News</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div><!-- / row -->
+                        <hr>
+                        <div class="tab-content">
+                          <div class="tab-pane fade in active" id="tab1">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="media">
+                                  <a class="pull-left" href="#"><span class="dateEl"><em>30</em>Nov</span></a>
+                                  <div class="media-body">
                                     <h4 class="media-heading">
-                                        Pulvinar Mauris Eu
+                                      <a href="#">Venture Tech</a>
                                     </h4>
-                                    <p>
-                                        Vivamus pulvinar mauris eu placerat blandit. In euismod tellus vel ex vestibulum congue.
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="media">
-                                <div class="media-left">
-                                    <div class="panel panel-danger text-center date">
-                                        <div class="panel-heading month">
-                                            <span class="panel-title strong">
-                                                Jan
-                                            </span>
-                                        </div>
-                                        <div class="panel-body text-danger day">
-                                            16
-                                        </div>
+                                    <div class="meta-data">
+                                      <span class="longDate">Nov 30, 2016</span> <span class="timeEl">12:00pm - 02:00pm</span>
                                     </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        Aenean Consectetur Ultricies
-                                    </h4>
                                     <p>
-                                        Curabitur vel malesuada tortor, sit amet ultricies mauris. Aenean consectetur ultricies luctus.
+                                      See the latest inspirations in the local tech scene.
                                     </p>
-                                </div>
-                            </li>
+                                  </div><!-- / media-body -->
+                                </div><!-- / media -->
+                                <div class="media">
+                                  <a class="pull-left" href="#"><span class="dateEl"><em>11</em>Dec</span></a>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Tech Conference</a>
+                                    </h4>
+                                    <div class="meta-data">
+                                      <span class="longDate">Dec 11, 2016</span> <span class="timeEl">06:00pm - 07:30pm</span>
+                                    </div>
+                                    <p>
+                                      Local tech entrepreneurs gather to share their knowledge.
+                                    </p>
+                                  </div><!-- / media-body -->
+                                </div><!-- / media -->
+                                <div class="media">
+                                  <a class="pull-left" href="#"><span class="dateEl"><em>15</em>Dec</span></a>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Marketing for Large Businesses</a>
+                                    </h4>
+                                    <div class="meta-data">
+                                      <span class="longDate">Dec 15, 2016</span> <span class="timeEl">05:30pm - 07:30pm</span>
+                                    </div>
+                                    <p>
+                                      Learn how larger organizations can effectively manager their marketing projects.
+                                    </p>
+                                  </div><!-- / media-body -->
+                                </div><!-- / media -->
+                              </div><!-- / .col-md-6 -->
+                              <div class="col-md-6">
+                                <div class="media">
+                                  <a class="pull-left" href="#"><span class="dateEl"><em>18</em>Dec</span></a>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Programming 101</a>
+                                    </h4>
+                                    <div class="meta-data">
+                                      <span class="longDate">Dec 18, 2016</span> <span class="timeEl">06:00pm - 08:00pm</span>
+                                    </div>
+                                    <p>
+                                      Take the basic CMS training class to see where things are and how to build custom modules.
+                                    </p>
+                                  </div><!-- / media-body -->
+                                </div><!-- / media -->
+                                <div class="media">
+                                  <a class="pull-left" href="#"><span class="dateEl"><em>21</em>Dec</span></a>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Desiging for Mobile</a>
+                                    </h4>
+                                    <div class="meta-data">
+                                      <span class="longDate">Dec 21, 2016</span> <span class="timeEl">10:00am - 12:00pm</span>
+                                    </div>
+                                    <p>
+                                      Get tips and information regarding how to design websites for mobile devices.
+                                    </p>
+                                  </div><!-- / media-body -->
+                                </div><!-- / media -->
+                                <div class="media">
+                                  <a class="pull-left" href="#"><span class="dateEl"><em>21</em>Dec</span></a>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Modern Support</a>
+                                    </h4>
+                                    <div class="meta-data">
+                                      <span class="longDate">Dec 22, 2016</span> <span class="timeEl">10:00am - 12:00pm</span>
+                                    </div>
+                                    <p>
+                                      Learn from industry leaders about providing the best support possible.
+                                    </p>
+                                  </div><!-- / media-body -->
+                                </div><!-- / media -->
+                              </div><!-- / .col-md-6 -->
+                            </div><!-- / row -->
+                            <div class="text-center">
+                              <br>
+                              <a class="btn btn-default" href="#">SEE ALL EVENTS</a>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="tab2">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="blogPost--small">
+                                  <div class="media">
+                                    <span class="pull-left"><a href="#"><span class="date"><span>29</span> <small>Nov</small></span></a></span>
+                                    <div class="media-body">
+                                      <h4 class="media-heading">
+                                        <a href="#">Building In WebCorpCo CMS 8</a>
+                                      </h4>
+                                      <p>
+                                        Learn about all of the possibilities of web design in our latest CMS release.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div><!-- / blogPost -->
+                                <div class="blogPost--small">
+                                  <div class="media">
+                                    <span class="pull-left"><a href="#"><span class="date"><span>22</span> <small>Nov</small></span></a></span>
+                                    <div class="media-body">
+                                      <h4 class="media-heading">
+                                        <a href="#">WebCorpCo Named To Inc. 5000</a>
+                                      </h4>
+                                      <p>
+                                        Inc. magazine today ranked WebCorpCo as the 1,870th fastest growing company on the 34th annual Inc. 5000.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div><!-- / blogPost -->
+                              </div><!-- / .col-md-6 -->
+                              <div class="col-md-6">
+                                <div class="blogPost--small">
+                                  <div class="media">
+                                    <span class="pull-left"><a href="#"><span class="date"><span>12</span> <small>Nov</small></span></a></span>
+                                    <div class="media-body">
+                                      <h4 class="media-heading">
+                                        <a href="#">7 Critical Factors When Choosing A CMS</a>
+                                      </h4>
+                                      <p>
+                                        Finding a solution that can be tailored to support the needs of your business is more important than ever.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div><!-- / blogPost -->
+                                <div class="blogPost--small">
+                                  <div class="media">
+                                    <span class="pull-left"><a href="#"><span class="date"><span>10</span> <small>Nov</small></span></a></span>
+                                    <div class="media-body">
+                                      <h4 class="media-heading">
+                                        <a href="#">What Is A Content Management System</a>
+                                      </h4>
+                                      <p>
+                                        So many acronyms that most of us know a brief amount about, if at all, let alone the meaning of those three little letters we hear so often.
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div><!-- / blogPost -->
+                              </div><!-- / row -->
+                              <div class="text-center">
+                                <br>
+                                <a class="btn btn-default" href="#">SEE ALL NEWS</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 article-right-2">
+                    <br><h3 class="min-3">Quick Links</h3>
+                    <div class="widget no-box">
+                        
+                        <ul class="thumbnail-widget">
+                        <li>
+                        <div class="thumb-content"><a href="#.">About</a></div>	
+                        </li>
+                        <li>
+                        <div class="thumb-content"><a href="#.">Upcomming Events</a></div>	
+                        </li>
+                        <li>
+                        <div class="thumb-content"><a href="#.">School Programmes</a></div>	
+                        </li>
+                        <li>
+                        <div class="thumb-content"><a href="#.">Online Store</a></div>	
+                        </li>
+                        <li>
+                        <div class="thumb-content"><a href="#.">LOFAEX-NEWS</a></div>	
+                        </li>
+                        <li>
+                        <div class="thumb-content"><a href="#.">Donate</a></div>	
+                        </li>
+                        <li>
+                        <div class="thumb-content"><a href="#.">Join VOTNEG</a></div>	
+                        </li>
                         </ul>
-                        <a href="news-events.html" class="btn btn-default btn-block">More Events »</a>
-                    </div>
-                </div>
-                <!-- End fluid width widget --> 
-
-            </div>
-        </div>
-    </div>
-        <!-- Middle of page containing Trending videos -->
-        
-        <div class="container-fluid middle-2">
-            <div class="row">
-                 <div class="col-sm-6 col-md-8 col-lg-9 min-videos">
-                     <h2 class="min-2">Ministry Trending videos</h2><hr>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-4 col-lg-4">
-                                <p><h5>New Creation Realities</h5></p>
-            
-                                <video width="200px" height="auto" controls>
-                                    <source src="mov_bbb.mp4" type="video/mp4">
-                                    <source src="mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support HTML5 video.
-                                </video>
-                                <p>
-                                    <a href="#">Your browser does not support HTML5 video.</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-4">
-                                <p><h5>Spirit Led Life</h5></p>
-            
-                                <video width="200px" height="auto" controls>
-                                    <source src="mov_bbb.mp4" type="video/mp4">
-                                    <source src="mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support HTML5 video.
-                                </video>
-                                <p>
-                                    <a href="#">Your browser does not support HTML5 video.</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-4">
-                                <p><h5>Purpose Discovery</h5></p>
-            
-                                <video width="200px" height="auto" controls>
-                                    <source src="mov_bbb.mp4" type="video/mp4">
-                                    <source src="mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support HTML5 video.
-                                </video>
-                                <p>
-                                    <a href="#">Your browser does not support HTML5 video.</a>
-                                </p>
-                            </div>
                         </div>
-                    </div>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-4 col-lg-4">
-                                <p><h5>New Creation Realities</h5></p>
-            
-                                <video width="200px" height="auto" controls>
-                                    <source src="mov_bbb.mp4" type="video/mp4">
-                                    <source src="mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support HTML5 video.
-                                </video>
-                                <p>
-                                    <a href="#">Your browser does not support HTML5 video.</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-4">
-                                <p><h5>Spirit Led Life</h5></p>
-            
-                                <video width="200px" height="auto" controls>
-                                    <source src="mov_bbb.mp4" type="video/mp4">
-                                    <source src="mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support HTML5 video.
-                                </video>
-                                <p>
-                                    <a href="#">Your browser does not support HTML5 video.</a>
-                                </p>
-                            </div>
-                            <div class="col-md-4 col-lg-4">
-                                <p><h5>Purpose Discovery</h5></p>
-            
-                                <video width="200px" height="auto" controls>
-                                    <source src="mov_bbb.mp4" type="video/mp4">
-                                    <source src="mov_bbb.ogg" type="video/ogg">
-                                        Your browser does not support HTML5 video.
-                                </video>
-                                <p>
-                                    <a href="#">Your browser does not support HTML5 video.</a>
-                                </p>
-                            </div>
+                        <h3 class="min-3">LOFAEX News Updates</h3>
+    
                         </div>
-                    </div>
-               
-                 </div>
-        
-         <!-- Right sidebar with articles -->
-
-                    <div class="cols-sm-6 col-md-4 col-lg-3 article-right-2">
-                        <h3 class="min-3">Quick Links</h3><hr>
-                <div class="widget no-box">
-                    
-                    <ul class="thumbnail-widget">
-                    <li>
-                    <div class="thumb-content"><a href="#.">About</a></div>	
-                    </li>
-                    <li>
-                    <div class="thumb-content"><a href="#.">Upcomming Events</a></div>	
-                    </li>
-                    <li>
-                    <div class="thumb-content"><a href="#.">School Programmes</a></div>	
-                    </li>
-                    <li>
-                    <div class="thumb-content"><a href="#.">Online Store</a></div>	
-                    </li>
-                    <li>
-                    <div class="thumb-content"><a href="#.">LOFAEX-NEWS</a></div>	
-                    </li>
-                    <li>
-                    <div class="thumb-content"><a href="#.">Donate</a></div>	
-                    </li>
-                    <li>
-                    <div class="thumb-content"><a href="#.">Join VOTNEG</a></div>	
-                    </li>
-                    </ul>
-                    </div>
-                    <h3 class="min-3">LOFAEX News Updates</h3><hr>
-
-                    </div>
-            </div>
-        </div>
-        <!-- Middle of page containing Trending Written Teaching - Our blog teachings -->
-        
-        <div class="container-fluid middle-3">
-            <div class="row">
-            <div class="col-sm-6 col-md-8 col-lg-9 segment-teaching">
-                <h2 class="main-2">Life Transformational Teachings</h2><hr>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>New Creation Realities</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Spirit Led Life</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Purpose Discovery</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>New Creation Realities</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Spirit Led Life</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Purpose Discovery</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                    </div>
+                  </div>
                 </div>
             </div>
-            <!-- Right sidebar with articles -->
-            <div class="cols-sm-6 col-md-4 col-lg-3 article-right-3">
-                <h3 class="min-3">On-going Projects</h3><hr>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua.
-            </div>
-        </div>
-    </div>
-
-        <!-- Testimonies from the ministry -->
-        
-        <div class="container-fluid middle-4">
-            <div class="row">
-            <div class="col-sm-6 col-md-8 col-lg-9 segment-testimony">
-                <h2 class="main-3">Testimonies</h2><hr>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>New Creation Realities</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Spirit Led Life</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Purpose Discovery</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Right sidebar with articles -->
-            <div class="cols-sm-6 col-md-4 col-lg-3 article-right-4">
-                <h3 class="min-4">Share testimony</h3><hr>
-                <quote style="color: white;">"... they overcame him by the blood of the Lamb, and by the word of their testimony..."</quote><br>(Rev 12:11 KJV)
-                
-                <form action="" class="newsletters" method="POST">
-                    <div class="form-group"><br>
-                        <label for="name">Full name:</label>
-                        <input type="text" class="form-control h-25 w-75" placeholder="Enter full name" id="email" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control h-25 w-75" placeholder="Enter email" id="email" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="comment">Write your testimony:</label>
-                        <textarea class="form-control" rows="4" id="testimony"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary h-auto w-25">Share</button>
-                </form>
-                
-            </div>
-        </div>
         </div>
 
-        <!-- More video teachings -->
-        
-        <div class="container-fluid middle-5">
-            <div class="row">
-            <div class="col-sm-6 col-md-8 col-lg-9 segment-videos-more">
-                <h2 class="main-4">More Video</h2><hr>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>New Creation Realities</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Spirit Led Life</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-lg-4">
-                            <p><h5>Purpose Discovery</h5></p>
-        
-                            <video width="200px" height="auto" controls>
-                                <source src="mov_bbb.mp4" type="video/mp4">
-                                <source src="mov_bbb.ogg" type="video/ogg">
-                                    Your browser does not support HTML5 video.
-                            </video>
-                            <p>
-                                <a href="#">Your browser does not support HTML5 video.</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Subscribe Right sidebar with articles -->
-            <div class="cols-sm-6 col-md-4 col-lg-3 article-right-5">
-                <h3 class="min-1">Subscribe to our newsletters</h3><hr>
-                <form action="" class="newsletters" method="POST">
-                    <div class="form-group">
-                        <label for="name">Full name:</label>
-                        <input type="text" class="form-control h-25 w-75" placeholder="Enter full name" id="email" required>
-                      </div>
-                      <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control h-25 w-75" placeholder="Enter email" id="email" required>
-                      </div>
-                      <button type="submit" class="btn btn-primary h-auto w-50">Subscribe</button>
-                </form>
-            </div>
-        </div>
-        </div>
-            <!-- Footer element -->
+       
 
-        <footer id="footer" class="footer-1">
+          <!-- Middle of page containing Trending videos -->
+          
+          <div class="container-fluid middle-2">
+              <div class="row">
+                   <div class="col-sm-6 col-md-8 col-lg-9 min-videos">
+                    <h2 class="min-2">Ministry Trending videos</h2>
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-md-4 col-lg-4">
+                                  <p><h5>New Creation Realities</h5></p>
+              
+                                  <video width="200px" height="auto" controls>
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                          Your browser does not support HTML5 video.
+                                  </video>
+                                  <p>
+                                      <a href="#">Your browser does not support HTML5 video.</a>
+                                  </p>
+                              </div>
+                              <div class="col-md-4 col-lg-4">
+                                  <p><h5>Spirit Led Life</h5></p>
+              
+                                  <video width="200px" height="auto" controls>
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                          Your browser does not support HTML5 video.
+                                  </video>
+                                  <p>
+                                      <a href="#">Your browser does not support HTML5 video.</a>
+                                  </p>
+                              </div>
+                              <div class="col-md-4 col-lg-4">
+                                  <p><h5>Purpose Discovery</h5></p>
+              
+                                  <video width="200px" height="auto" controls>
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                          Your browser does not support HTML5 video.
+                                  </video>
+                                  <p>
+                                      <a href="#">Your browser does not support HTML5 video.</a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="container-fluid">
+                          <div class="row">
+                              <div class="col-md-4 col-lg-4">
+                                  <p><h5>New Creation Realities</h5></p>
+              
+                                  <video width="200px" height="auto" controls>
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                          Your browser does not support HTML5 video.
+                                  </video>
+                                  <p>
+                                      <a href="#">Your browser does not support HTML5 video.</a>
+                                  </p>
+                              </div>
+                              <div class="col-md-4 col-lg-4">
+                                  <p><h5>Spirit Led Life</h5></p>
+              
+                                  <video width="200px" height="auto" controls>
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                          Your browser does not support HTML5 video.
+                                  </video>
+                                  <p>
+                                      <a href="#">Your browser does not support HTML5 video.</a>
+                                  </p>
+                              </div>
+                              <div class="col-md-4 col-lg-4">
+                                  <p><h5>Purpose Discovery</h5></p>
+              
+                                  <video width="200px" height="auto" controls>
+                                      <source src="mov_bbb.mp4" type="video/mp4">
+                                      <source src="mov_bbb.ogg" type="video/ogg">
+                                          Your browser does not support HTML5 video.
+                                  </video>
+                                  <p>
+                                      <a href="#">Your browser does not support HTML5 video.</a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                 
+                   </div>
+          
+           <!-- Right sidebar with articles -->
+  
+                      <div class="cols-sm-6 col-md-4 col-lg-3 article-right-2">
+                          <h3 class="min-3">Quick Links</h3>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                  aliqua.
+                      </div>
+              </div>
+          </div>
+
+           <!-- Footer element -->
+
+           <footer id="footer" class="footer-1">
             <div class="main-footer widgets-dark typo-light">
             <div class="container">
             <div class="row">
@@ -563,10 +475,6 @@
             </div>
             </div>
             </footer>
-  
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
+        <script src="js/script.js"></script>
     </body>
 </html>
