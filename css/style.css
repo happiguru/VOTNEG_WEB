@@ -72,10 +72,7 @@ ul.menu li{
     position: relative;
     display: inline-block;
     border-radius: 10px 10px 0px 0px;
-    width: inherit;
-    
-    
-    
+    width: inherit; 
 }
 ul.menu li a {
     text-decoration: none;
@@ -92,6 +89,21 @@ ul.menu li:hover, ul li a:hover{
     background-color: rebeccapurple;
     color: goldenrod;
 }
+.iframe-live {
+  border: 5px solid goldenrod;
+}
+.live-menu{
+  margin-left: 20px;
+}
+.livestream {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+hr {
+  background-color: #d4321d;
+  height: 3px;
+
+}
 
 .middle-1 {
     border-top: 1px solid white;
@@ -101,8 +113,8 @@ ul.menu li:hover, ul li a:hover{
     overflow: auto;
 }
 .image-banner {
-  
-  margin-left: 75px;
+  width: auto;
+  margin-left: 60px;
 }
 
 .slideshow-left {
@@ -169,7 +181,7 @@ ul.menu li:hover, ul li a:hover{
     height: auto;
     margin-bottom: 20PX;
     overflow: auto;
-    padding-left: 75px;
+    padding-left: 60px;
     text-align: justify;
 }
 
@@ -178,12 +190,12 @@ ul.menu li:hover, ul li a:hover{
   height: auto;
   margin-bottom: 20PX;
   overflow: auto;
-  padding-left: 75px;
+  padding-left: 60px;
   text-align: justify;
 }
  
 .middle-4 {
-  padding-left: 75px;
+  padding-left: 60px;
   height: auto;
   margin-bottom: 20PX;
   overflow: auto;
@@ -191,7 +203,7 @@ ul.menu li:hover, ul li a:hover{
 } 
 
 .middle-5 {
-  padding-left: 75px;
+  padding-left: 60px;
   height: auto;
   margin-bottom: 20PX;
   overflow: auto;
