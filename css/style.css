@@ -55,6 +55,7 @@ nav{
     margin: 0px;
     height: auto;
     overflow: auto;
+    width: 100%;
 }
 .navbar {
   background-color: #252525 !important;
@@ -68,6 +69,7 @@ nav{
     background-color:#464646;
     border-bottom: 2px solid white;
 }
+
 ul.menu li{
     list-style: none;
     text-align: center;
@@ -86,8 +88,7 @@ ul.menu li a {
 }
  ul li a:hover{
     background-color: rebeccapurple;
-    padding:13px;'
-    border-radius: 10px 10px 0px 0px !important;
+    
     color: goldenrod !important;
 }
 .iframe-live {
