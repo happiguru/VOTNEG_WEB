@@ -46,7 +46,6 @@ h5{
 header{
     height: auto;
     background: #252525; 
-    position: relative;
     width: 100%;
     z-index: 2;
     margin: 0 auto;
@@ -57,37 +56,39 @@ nav{
     height: auto;
     overflow: auto;
 }
+.navbar {
+  background-color: #252525 !important;
+}
 
 .menu{
     margin: 0 auto;
     height: auto;
     padding: 5px;
     width: inherit;
-    background-color:#464646
+    background-color:#464646;
+    border-bottom: 2px solid white;
 }
 ul.menu li{
     list-style: none;
     text-align: center;
-    padding: 0px;
-    position: relative;
     display: inline-block;
-    border-radius: 10px 10px 0px 0px;
     width: inherit; 
 }
 ul.menu li a {
     text-decoration: none;
-    color: white;
+    color: white !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     line-height: 10px;
     margin: 0px 5px 0px 5px;
     font-size: 12px;
-    font-stretch: wider;
     letter-spacing: 0.5px;
 }
-ul.menu li:hover, ul li a:hover{
+ ul li a:hover{
     background-color: rebeccapurple;
-    color: goldenrod;
+    padding:13px;'
+    border-radius: 10px 10px 0px 0px !important;
+    color: goldenrod !important;
 }
 .iframe-live {
   border: 5px solid goldenrod;
@@ -494,3 +495,5 @@ transition: all 250ms ease-in-out 0s;
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
+
+
