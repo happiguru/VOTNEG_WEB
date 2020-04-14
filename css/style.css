@@ -50,22 +50,25 @@ header{
     z-index: 2;
     margin: 0 auto;
     padding: 20px;
+    
 }
 nav{
     margin: 0px;
     height: auto;
     overflow: auto;
     width: 100%;
+    
 }
 .navbar {
   background-color: #252525 !important;
+  
 }
 
 .menu{
     margin: 0 auto;
     height: auto;
     padding: 5px;
-    width: inherit;
+    width: auto;
     background-color:#464646;
     border-bottom: 2px solid white;
 }
