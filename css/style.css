@@ -1,5 +1,5 @@
 body{
-    color: #777;
+    color: rgb(255, 255, 255);
     font: 12px/21px "lucida grande",verdana,sans-serif;
     font-style: normal;
     font-variant-ligatures: normal;
@@ -15,12 +15,12 @@ body{
 }
 #logotype{
     display: block;
-    height: auto;
-    width: auto;
+    height: 38px;
+    width: 40px;
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -609px;
+    margin-left: -616px;
 }
 
 h1{
@@ -39,34 +39,27 @@ h3{
   font-size: 16px;
 }
 h5{
-  color: #ff8d1e;
   padding-left: 20px;
   font-size: 14px;
-}
-.header-div{
-  position: fixed;
-    overflow: none;
 }
 
 header{
     height: auto;
     background: #252525; 
-    width: 100%;
     z-index: 2;
     margin: 0 auto;
-    padding: 20px;
-      
-}
-nav{
-    margin: 0px;
-    height: auto;
-    overflow: auto;
-    width: 100%;
-    
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid white;
+  
 }
 .navbar {
-  background-color: #252525 !important;
+    
+  background: #252525 !important;
   
+    
+   
 }
 .logo-text {
   font-family: 'Cinzel Decorative', cursive;
@@ -76,6 +69,7 @@ nav{
 }
 .logo-text:hover{
   text-decoration: none;
+  color: white;
 }
 .votneg-name {
   margin-left: 20px;
@@ -88,29 +82,31 @@ nav{
 .menu{
     margin: 0 auto;
     height: auto;
-    padding: 5px;
+    padding: 2px;
     width: auto;
-    background-color:#464646;
-    border-bottom: 2px solid white;
 }
 
 ul.menu li{
     list-style: none;
     text-align: center;
-    width: inherit; 
+    width: inherit;
+    margin: 1px; 
 }
 ul.menu li a {
     text-decoration: none;
     color: white !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     line-height: 10px;
-    margin: 0px 5px 0px 5px;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 0.5px;
+    border: 1px solid white;
+    
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
 }
  ul li a:hover{
-    background-color: rebeccapurple;
+    background-color: #0535b9;
     
     color: goldenrod !important;
 }
@@ -121,26 +117,26 @@ ul.menu li a {
   margin-left: 20px;
 }
 .livestream {
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: 150px;
 }
 hr {
-  background-color: #d4321d;
-  height: 3px;
+  background-color: #ffffff;
+  height: 2px;
+  border-radius: 10px;
 
 }
 
 .middle-1 {
-    border-top: 1px solid white;
+    
     border-bottom: 1px solid white;
     height: auto;
-    margin-bottom: 20PX;
+    margin-top: 120PX;
     overflow: auto;
-    
 }
 .image-banner {
   width: auto;
   margin-left: 60px;
+  margin-top: 120px;
 }
 
 .slideshow-left {
@@ -191,7 +187,7 @@ hr {
   }
   
   .active {
-    background-color: #717171;
+    background-color: #0535b9;
   }
   
   /* Fading animation */
@@ -203,18 +199,23 @@ hr {
   }
 
   .middle-2 {
-   
+    margin-top: 120px;
     height: auto;
-    margin-bottom: 20PX;
     overflow: auto;
     padding-left: 60px;
     text-align: justify;
 }
-
-.middle-3 {
+.middle-22 {
   
   height: auto;
-  margin-bottom: 20PX;
+  overflow: auto;
+  padding-left: 60px;
+  text-align: justify;
+}
+
+.middle-3 {
+  margin-top: 120px;
+  height: auto;
   overflow: auto;
   padding-left: 60px;
   text-align: justify;
@@ -223,7 +224,7 @@ hr {
 .middle-4 {
   padding-left: 60px;
   height: auto;
-  margin-bottom: 20PX;
+  margin-top: 120px;
   overflow: auto;
   text-align: justify;
 } 
@@ -231,9 +232,16 @@ hr {
 .middle-5 {
   padding-left: 60px;
   height: auto;
-  margin-bottom: 20PX;
+  margin-top: 120px;
   overflow: auto;
   display: inline-block;
+}
+.middle-6 {
+  padding-left: 60px;
+  height: auto;
+  margin-top: 50px;
+  overflow: auto;
+  text-align: justify;
 }
 .segment-videos, .min-videos, .segment-teaching, .segment-testimony, .segment-videos-more {
   float: left;
@@ -467,9 +475,9 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
 	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{	margin-bottom: 18px;}
-.widget li a{	color: #ff8d1e;}
-.widget li a:hover{	color: #4b92dc;}
-.widget-title {margin-bottom: 20px;}
+.widget li a{	color: #839feb;}
+.widget li a:hover{	color: #4b92dc; background-color: #464646;}
+.widget-title {margin-bottom: 20px; color: goldenrod !important;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
 .widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
 .widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
