@@ -13,15 +13,16 @@ body{
     font-family: "lucida grande", verdana, sans-serif;
     background-color: #464646;
 }
-.logotype{
+#logotype{
     display: block;
-    height: 70px;
-    width: 119px;
+    height: auto;
+    width: auto;
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -465px;
+    margin-left: -609px;
 }
+
 h1{
   color: goldenrod;
   padding-left: 0px;
@@ -42,6 +43,10 @@ h5{
   padding-left: 20px;
   font-size: 14px;
 }
+.header-div{
+  position: fixed;
+    overflow: none;
+}
 
 header{
     height: auto;
@@ -50,7 +55,7 @@ header{
     z-index: 2;
     margin: 0 auto;
     padding: 20px;
-    
+      
 }
 nav{
     margin: 0px;
@@ -62,6 +67,22 @@ nav{
 .navbar {
   background-color: #252525 !important;
   
+}
+.logo-text {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+.logo-text:hover{
+  text-decoration: none;
+}
+.votneg-name {
+  margin-left: 20px;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 14px;
+  color: goldenrod;
+  font-weight: 500;
 }
 
 .menu{
@@ -76,7 +97,6 @@ nav{
 ul.menu li{
     list-style: none;
     text-align: center;
-    display: inline-block;
     width: inherit; 
 }
 ul.menu li a {
@@ -116,6 +136,7 @@ hr {
     height: auto;
     margin-bottom: 20PX;
     overflow: auto;
+    
 }
 .image-banner {
   width: auto;
