@@ -433,15 +433,37 @@ outline: none;
   font-size: 22px;
   text-transform: uppercase;
 }
-
-
-
 .btn-default {
   color: #fff;
   font-size: 14px;
   background-color: #662d91;
   border-radius : 0px;
 }
+input[type="text"], input[type="email"]{
+  width: 100%;
+  height: 25px;
+  outline: 0;
+  font-size: 1em;
+  background: #fff;
+  color: #2f4f4f;
+}
+
+textarea[type="text"]{
+  outline: 0;
+  font-size: 1em;
+  background: #fff;
+  color: #2f4f4f;
+}
+
+label{
+  font-size: 1.25em;
+  color: #53BDFF;
+  background-color: #fff;
+  outline: 0;
+  width: 100%;
+
+}
+
 
 
 /*==================== 
