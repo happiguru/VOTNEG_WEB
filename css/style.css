@@ -61,6 +61,16 @@ h5{
   text-decoration: underline;
   
 }
+
+
+div.gradient {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 38px;
+  color: #fff;
+  height: 100px;
+  background-image: linear-gradient( 138deg,  rgba(32,201,255,1) 36.7%, rgba(0,8,187,1) 84.4%, rgba(255,255,255,1) 119.7% );
+}
 .about {
   color: rgb(236, 177, 27);;
   padding: 5px 15px 5px 0px;
@@ -213,14 +223,14 @@ hr {
     margin-top: 20px;
     height: auto;
     overflow: auto;
-    padding-left: 60px;
+    padding-left: 10px;
     text-align: justify;
 }
 .middle-22 {
   
   height: auto;
   overflow: auto;
-  padding-left: 60px;
+  padding-left: 10px;
   text-align: justify;
 }
 
@@ -228,12 +238,12 @@ hr {
   margin-top: 10px;
   height: auto;
   overflow: auto;
-  padding-left: 60px;
+  padding-left: 10px;
   text-align: justify;
 }
  
 .middle-4 {
-  padding-left: 60px;
+  padding-left: 10px;
   height: auto;
   margin-top: 10px;
   overflow: auto;
@@ -241,14 +251,14 @@ hr {
 } 
 
 .middle-5 {
-  padding-left: 60px;
+  padding-left: 10px;
   height: auto;
   margin-top: 10px;
   overflow: auto;
   display: inline-block;
 }
 .middle-6 {
-  padding-left: 60px;
+  padding-left: 10px;
   height: auto;
   margin-top: 20px;
   overflow: auto;
@@ -461,9 +471,7 @@ label{
   background-color: #fff;
   outline: 0;
   width: 100%;
-
 }
-
 
 
 /*==================== 
@@ -559,6 +567,7 @@ transition: all 250ms ease-in-out 0s;
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
+    .image-banner{font-size: 20px;}
   }
   /* On smaller screens, decrease text size 1024 */
   @media only screen and (max-width: 1025px) {
