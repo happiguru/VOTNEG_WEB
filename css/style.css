@@ -9,7 +9,7 @@ body{
     font-weight: normal;
     font-stretch: normal;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 30px;
     font-family: "lucida grande", verdana, sans-serif;
     background-color: rgb(255, 255, 255);
 }
@@ -21,6 +21,11 @@ body{
     top: 0;
     left: 50%;
     margin-left: -616px;
+}
+.center {
+  margin: auto;
+  width: 63%;
+  padding: 10px;
 }
 
 h1{
@@ -443,6 +448,13 @@ outline: none;
   font-size: 22px;
   text-transform: uppercase;
 }
+
+.m-left {
+  margin-left: 40px;
+  padding-right: 40px;
+  max-width: auto;
+  font-size: 1.15em;
+}
 .btn-default {
   color: #fff;
   font-size: 14px;
@@ -568,6 +580,7 @@ transition: all 250ms ease-in-out 0s;
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
     .image-banner{font-size: 20px;}
+    .m-left {width: auto; margin-left: 0px; padding-right: 0px;}
   }
   /* On smaller screens, decrease text size 1024 */
   @media only screen and (max-width: 1025px) {
@@ -592,6 +605,7 @@ transition: all 250ms ease-in-out 0s;
     left: 50%;
     margin-left: -240px !important;
     }
+    .m-left {width: 100%; margin-left: 0px; padding-right: 0px;}
   }
   /* On smaller screens, decrease text size iphone6,7,8 plus */
   @media only screen and (max-width: 420px) {
@@ -604,6 +618,7 @@ transition: all 250ms ease-in-out 0s;
     left: 50%;
     margin-left: -150px !important;
     }
+    .m-left {width: auto; margin-left: 0px; padding-right: 0px;}
   }
 /* On smaller screens, decrease text size iphone6,7,8 */
   @media only screen and (max-width: 400px) {
@@ -616,6 +631,7 @@ transition: all 250ms ease-in-out 0s;
     left: 50%;
     margin-left: -130px !important;
     }
+    .m-left {width: auto; margin-left: 0px; padding-right: 0px;}
   }
   
   /* On smaller screens, decrease text size Galaxy S5*/
@@ -629,6 +645,7 @@ transition: all 250ms ease-in-out 0s;
     left: 50%;
     margin-left: -120px !important;
     }
+    .m-left {width: auto; margin-left: 0px; padding-right: 0px;}
   }
   /* On smaller screens, decrease text size iphone 5*/
   @media only screen and (max-width: 321px) {
@@ -641,6 +658,7 @@ transition: all 250ms ease-in-out 0s;
     left: 50%;
     margin-left: -105px !important;
     }
+    .m-left {width: auto; margin-left: 0px; padding-right: 0px;}
   }
 
 
